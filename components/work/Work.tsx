@@ -315,7 +315,9 @@ export default function WorkDesktop() {
         }
 
         .purple {
-          background-image: url("/public/work/dots.jpg");
+          background-color: magenta; /* quick visible check */
+          background-image: url("/work/dots.jpg");
+          background-size: cover;
         }
         .green {
           background-color: #28a92b;
